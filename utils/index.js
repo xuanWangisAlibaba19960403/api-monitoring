@@ -1,14 +1,14 @@
-export const setTimeBuryPoint = (options) => {
-  options.metaData = {
+export const setTimeBuryPoint = (config) => {
+  config.metaData = {
     startTime: Date.now()
   }
-  return options
 }
-export const setDuration = (options) => {
+
+export const setDuration = (response) => {
+  const { config } = response
   const endTime = Date.now()
-  const duration = endTime - options.metaData.startTime
-  options.metaData.endTime = endTime
-  return duration
+  config.metaData.endTime = endTime
+  response.duration = endTime - config.metaData.startTime
 }
 
 const rejectInjectInstance = () => { throw new Error('please inject axios instance') }
