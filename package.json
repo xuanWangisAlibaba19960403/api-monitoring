@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "homepage": "https://github.com/xuanWangisAlibaba19960403/api-monitoring#readme",
-  "keywords": [axios],
+  "keywords": ['axios'],
    "bugs": {
     "url": "https://github.com/xuanWangisAlibaba19960403/api-monitoring/issues"
   },
