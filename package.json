@@ -7,7 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "homepage": "https://github.com/xuanWangisAlibaba19960403/api-monitoring#readme",
-  "keywords": [],
+  "keywords": [axios],
+   "bugs": {
+    "url": "https://github.com/xuanWangisAlibaba19960403/api-monitoring/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuanWangisAlibaba19960403/api-monitoring.git"
+  },
   "author": "wangxuan",
   "license": "ISC",
   "dependencies": {
